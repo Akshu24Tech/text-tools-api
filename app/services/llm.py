@@ -26,5 +26,4 @@ def ask(prompt: str) -> str:
         response = _get_model().generate_content(prompt)
         return response.text.strip()
     except Exception as exc:
-        # wrap everything (quota, network, safety blocks) into one error type
         raise LLMError(str(exc)) from exc
