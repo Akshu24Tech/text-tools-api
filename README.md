@@ -53,7 +53,7 @@ Set in `.env` (see `.env.example`):
 | Variable         | Default            | What it does               |
 |------------------|--------------------|----------------------------|
 | `GEMINI_API_KEY` | —                  | your Gemini key (required) |
-| `GEMINI_MODEL`   | `gemini-1.5-flash` | which model to call        |
+| `GEMINI_MODEL`   | `gemini-2.5-flash` | which model to call        |
 | `LOG_LEVEL`      | `INFO`             | log verbosity              |
 
 ## Tests
